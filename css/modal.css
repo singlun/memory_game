@@ -1,0 +1,76 @@
+.win-modal {
+  position: absolute;
+  top: calc(50vh - 175px);
+  left: calc(50vw - 300px);
+  width: 600px;
+  height: 350px;
+  background: white;
+  z-index: 500;
+  box-shadow: 0 0 60px 10px rgba(0, 0, 0, 0.9);
+}
+
+.win-modal-content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 500px;
+  color: #1a5f6fe6;
+  /* border: 3px solid; */
+}
+
+
+.win-modal-overlay {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  max-width: 100vw;
+  max-height: 100vh;
+  z-index: 50;
+
+  background: rgba(0, 0, 0, 0.6);
+}
+
+
+.win-modal .modal-close-button {
+  border: 0;
+  background: green;
+  width: 60px;
+  color: white;
+  font-size: 15px;
+  border-radius: 0.2rem;
+}
+
+
+.p1 {
+  margin: 20px 0 0 200px;
+  color: red;
+  font-size: 20px;
+}
+
+
+.p2 {
+  margin: 40px 0 0 225px;
+}
+
+.p3 {
+  margin: 55px 0 0 250px;
+}
+
+.modalHeading {
+  margin: 50px 0 20px 120px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+
+/* This is to dispaly or close the Modal */
+.closed {
+  display: none;
+}
+
+
+/* This is to dispaly or close the Modal */
+.opened {
+  display: block;
+}

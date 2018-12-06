@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Memory Game - Concentration</title>
+	<link rel="stylesheet" href="css/modal.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+</head>
+<body>
+
+<header class="header">
+		<span class="header-col-title">
+				<span class="header-upper-title">
+						Matching Game
+				</span>
+				<span class="header-middle-title">
+							<span id="header-middle-start" class="header-middle-start">
+									<i onclick="startGame();" id="start" class="fas fa-play start game-not-start"></i> Start Game
+							</span>
+							<span id="startTimer" class="header-middle-time">
+									Time 00:00
+							</span>
+				</span>
+				<span class="header-row-title">
+							<span class="header-icons-star">
+											<span>
+													<i id="icons-star-one" class="fas fa-star"></i>
+											</span>
+											<span>
+													<i id="icons-star-two" class="fas fa-star"></i>
+											</span>
+											<span>
+													<i id="icons-star-three" class="fas fa-star"></i>
+											</span>
+											<span id="noMoves" class="header-icons-star-three">
+													0 Moves
+											</span>
+							</span>
+							<span id="header-icons-restart"class="header-icons-restart">
+									<i id="restart" class="fas fa-redo replay"></i>
+							</span>
+				</span>
+		</span>
+</header>
+<br>
+<main class="main"></main>
+
+<footer class="foot">
+			<p></p>
+</footer>
+
+<span class="win-modal-overlay" id="modal-overlay"></span>
+
+<span class="win-modal" id="modal">
+			<span class="win-modal-content" id="modal-content"></span>
+</span>
+
+<script src="js/main.js"></script>
+<script>
+				gameSetup();
+</script>
+</body>
+</html>
