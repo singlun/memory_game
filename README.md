@@ -45,7 +45,7 @@ The "Star Rating" is base on:
     * [Font Awesome](https://fontawesome.com/?from=io)
 * Code References
     * [CSS Tricks](https://fontawesome.com/?from=io)
-    * [Stack OverFlow](https://stackoverflow.com/)
+    * [Stack OverFlow - Array Shuffle](https://stackoverflow.com/questions/6274339/how-can-i-shuffle-an-array/6274398)
     * [w3schools](https://www.w3schools.com)
     * [Udacity](https://www.udacity.com/)
     * [GitHub](https://github.com/)
