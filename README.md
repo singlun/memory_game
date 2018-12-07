@@ -28,7 +28,7 @@ The "Star Rating" is base on:
 
 * The first star will be lowered when the time is greater than or equal to 
 
-  19 seconds and number of moves is greater than or equal to 8.
+  22 seconds and number of moves is greater than or equal to 8.
 
 * The second star will be lowered when the time is greater than or equal to  29 
 

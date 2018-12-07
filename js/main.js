@@ -272,7 +272,7 @@ function reInitialize() {
 
 //This function display and calculate the "Star Rating".
 //The "Star Rating" is base on:
-//  1.The first star will be lowered when the time is over 19 seconds and
+//  1.The first star will be lowered when the time is over 22 seconds and
 //    No of moves is greater or equal 8.
 //  2.The second star will be lowered when the time is over 29 seconds and
 //    No of moves is greater or equal 14.
@@ -280,7 +280,7 @@ function reInitialize() {
 //    No of moves is greater or equal 22.
 function starRating() {
 
-    if (secTime >= 19 && noOfStars === 3) {
+    if (secTime >= 22 && noOfStars === 3) {
         if (noOfMoves >= 8){
             document.querySelector('#icons-star-three').className = "far fa-star";
             noOfStars = noOfStars - 1;
