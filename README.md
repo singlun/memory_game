@@ -39,6 +39,15 @@ The "Star Rating" is base on:
   seconds and number of moves is greater than or equal to 22.
 
 
+<img src="img/memory.png"
+     alt="Memory Game"
+     style=" margin-right: 10px;" />
+
+<img src="img/memory2.png"
+     alt="Memory Game finish"
+     style="margin-right: 10px;" />     
+
+
 ## References
 
 * fonts or incons
