@@ -13,6 +13,10 @@
 The game runs on any browser or mobile devices. You can just click on the `index.html` file and play. If you choose to install it on the web server. You can
 create a folder (for example `Memory`) and copy the folder `css` , `img` , `js` and the file `index.html` and paste it inside the `Memory` folder. Copy the `Memory` folder to the root directory of the web server. Inorder to access the web site for example `localhost`: you just need to type in `http://localhost/Memory/index.html`.
 
+## Project Link
+
+ * [Memory Game](https://javascript-project2.netlify.com)
+
 
 ## Instructions
 
